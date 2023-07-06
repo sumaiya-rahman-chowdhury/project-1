@@ -3,3 +3,19 @@
     margin: 0px;
     padding: 0px;
 }
+.menu-container{
+    background-color: hsl(0, 1%, 26%);
+    padding: 20px;
+    color: aliceblue;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo-photo{
+    width: 120px;
+}
+.menu{
+    display: flex;
+
+}
