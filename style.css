@@ -17,5 +17,16 @@
 }
 .menu{
     display: flex;
-
 }
+.nav-item{
+    margin: 10px;
+    padding-right: 7px;
+    font-size: 18px;
+    cursor: pointer;
+    padding-left: 7px;
+}
+.nav-item:hover{
+color: yellow;
+}
+
+
