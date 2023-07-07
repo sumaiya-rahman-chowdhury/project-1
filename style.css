@@ -2,6 +2,7 @@
     text-transform: capitalize;
     margin: 0px;
     padding: 0px;
+    font-family:Arial, Helvetica, sans-serif;
 }
 .menu-container{
     background-color: hsl(0, 1%, 26%);
@@ -41,11 +42,11 @@ color: yellow;
    linear-gradient(45deg,hsl(0, 1%, 14%),#2c2b2b);
 }
 .title {
-    font-size: 50px;
+    font-size: 3.125rem;
     font-weight: bold;
 }
 .description{
-    font-size: 18px;
+    font-size: 1.125rem;
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -55,6 +56,14 @@ color: yellow;
     color: white;
     border-radius: 5px;
     border: none;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.title-2{
+    padding-top: 20px;
 }
 
 
