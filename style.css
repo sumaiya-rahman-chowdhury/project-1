@@ -28,5 +28,33 @@
 .nav-item:hover{
 color: yellow;
 }
+.banner-img{
+    width: 300px;
+}
+.banner-container{
+    display: flex;
+    color: white;
+    align-items: center;
+   justify-content:space-around;
+   height: 100vh;
+   background-image: url("./images/background.png"),
+   linear-gradient(45deg,hsl(0, 1%, 14%),#2c2b2b);
+}
+.title {
+    font-size: 50px;
+    font-weight: bold;
+}
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.button{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
 
 
